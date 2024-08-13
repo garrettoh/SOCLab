@@ -24,7 +24,24 @@ First We need to set up the virtual machines, On the Windows machine I will be d
 
 ###Windows
 
+
+
+
+
+<img src="Pictures/001.png">
+<img src="Pictures/003.png">
+<img src="Pictures/004.png">
+<img src="Pictures/005.png">
+<img src="Pictures/006.png">
+
+
+
 ###Ubuntu
+
+
+
+<img src="Pictures/002.png">
+<img src="Pictures/007.png">
 
 
 
