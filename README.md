@@ -22,7 +22,7 @@ My SOC Home Lab was created to gain more practical skills in SOC Operations. I w
 ## Steps
 First We need to set up the virtual machines, On the Windows machine I will be disabling Windows Defender aswell as installing the EDR sensor aswell as Sysmon. Next, I will configure an Ubuntu machine with a static IP and install the sliver C2 payload generator.
 
-###Windows
+### Windows
 
 
 
@@ -39,7 +39,7 @@ Create a Artifact rule so that Sysmon will send to our SIEM on LimaCharlie.
 
 
 
-###Ubuntu
+### Ubuntu
 
 
 
