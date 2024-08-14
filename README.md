@@ -49,7 +49,7 @@ SSH in and then download the sliver C2 Payload generator. <img src="Pictures/007
 
 
 
-Next, we will generate a payload and download it on the victim machine so that we can create telemetry.
+### Next, we will generate a payload and download it on the victim machine so that we can create telemetry.
 
 
 <img src="Pictures/008.png">
@@ -71,12 +71,12 @@ Looking into the EDR solution (LimaCharlie) To view running processes and find P
 
 Here we can see the network connections created by the process POLISH_BEAN trying to reach out to our linux machine/C2 Server @192.168.182.128 <img src="Pictures/014.png">
 
-Exploitation- 
+### Exploitation- 
 Dump lsass from memory to server <img src="Pictures/015.png">
 
 EDR Detection <img src="Pictures/016.png">
 
-Create our own custom rule to detect if lsass is being accessed<img src="Pictures/017.png">
+Create a simple rule to detect if the lsass process is being accessed. (We will soon find out that this will need to be tuned because non-malicious processes will use lsass.) <img src="Pictures/017.png">
 
 Matched event in the test case.<img src="Pictures/018.png">
 
